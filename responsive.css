@@ -1,0 +1,220 @@
+@media all and (max-width: 767px) {
+
+  header {
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .header-wrapper {
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+
+  .header-logo {
+    width: 135px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .fa.menu-icon {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+    height: 525px;
+    background-image: url(./imge/mv_sp.png);
+  }
+
+  .main-text {
+    position: absolute;
+    top: 70px;
+    left: 27px;
+    color: #fff;
+  }
+
+  .main-text-title {
+    font-size: 20px;
+  }
+
+  .main-text-p {
+    font-size: 11px;
+    line-height: 2;
+    padding-top: 5px;
+    padding-left: 3px;
+  }
+
+  .news-wrapper {
+    padding: 30px 0 40px 10px;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .news-text-item {
+    font-size: 10px;
+    text-align: left;
+    line-height: 1;
+  }
+
+  .message {
+    height: 150px;
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .message h1 {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .message p {
+    font-size: 11px;
+    padding-top: 0;
+  }
+
+  .about {
+    padding-top: 40px;
+  }
+
+  .about-title {
+    padding-left: 0;
+  }
+
+  .about-item {
+    flex-direction: column;
+  }
+
+  .about-item-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .about-item-img {
+    width: 100%;
+  }
+
+  .about-item-text {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 48px;
+    padding-left: 10px;
+    width: 100%;
+  }
+
+  .about-item-text-title {
+    font-size: 16px;
+  }
+
+  .about-item-text-p {
+    font-size: 10px;
+    padding-top: 0;
+  }
+
+  .about-btn-more {
+    padding-top: 0;
+  }
+
+  .link-more {
+    font-size: 11px;
+    padding: 10px 90px;
+  }
+
+  .interview-wrapper {
+    padding-top: 58px;
+  }
+
+  .interview-title {
+    padding-left: 0;
+  }
+
+  .interviews {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .interview {
+    margin-left: 0;
+    width: calc(50% - 1px);
+  }
+
+  .interview-texts {
+    padding: 15px 10px 27px 10px;
+  }
+  
+  .interview-img-title {
+    font-size: 11px;
+  }
+
+  .interview-img-p {
+    padding-top: 4px;
+    font-size: 10px;
+  }
+
+  .gallery {
+    padding-right:10px;
+    padding-left:10px;
+    padding-bottom: 60px;
+  }
+
+  .gallery-item {
+    padding-top: 3px;
+    width: calc(33% - 2px);
+  }
+
+  .gallery-img-wrapper {
+    padding-bottom: 38px;
+  }
+
+  .contact-body a {
+    height: 115px;
+    background-image: url(./imge/contact_bg_sp.png);
+  }
+
+  .contact-title-en {
+    font-size: 19px;
+  }
+
+  .contact-title-ja {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    height: 68px;
+  }
+
+  .footer-left a {
+    font-size: 10px;
+  }
+
+  .footer-right {
+    font-size: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+  } 
+
+  .footer-left {
+    padding-right: 8px;
+  }
+
+  .footer-left:last-child {
+    padding-left: 0;
+  }
+
+  .footer-list {
+    padding-left: 6px;
+  }
+
+}

@@ -1,0 +1,334 @@
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration:  none;
+}
+
+body {
+  font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "sans-serif";
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+header {
+  background-color: #E6ECF1;
+  width: 100%;
+}
+
+.header-wrapper {
+  height: 80px;
+  padding: 15px 40px;
+}
+
+.header-left {
+  float: left;
+  padding-top: 10px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  float: left;
+  padding: 0 15px;
+  color: #006A80;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.header-logo {
+  width: 220px;
+}
+
+.header-logo img {
+  width: 100%;
+}
+
+.fa.menu-icon {
+  color: #006A80;
+  float: right;
+  font-size: 20px;
+  padding: 10px 0;
+  display: none;
+}
+
+.main {
+  background-image: url(./imge/mv.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 780px;
+  width: 100%;
+}
+
+.main-wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+.main-text {
+  position: absolute;
+  top: 90px;
+  left: 65px;
+  color: #fff;
+  text-align: left;
+}
+
+.main-text-title {
+  font-size: 28px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+}
+
+.main-text-p {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 5px;
+  letter-spacing: 0.2em;
+  line-height: 2.25;
+}
+
+.news-wrapper {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  font-weight: 700;
+  color: #8fc0ca;
+}
+
+.news-text-item {
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  line-height: 0.3;
+  color: #444444;
+}
+
+.news-text-day {
+  padding-right: 25px;
+}
+
+.message {
+  height: 287px;
+  width: 100%;
+  background-color: #EBF6F8;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.message h1 {
+  font-size: 36px;
+  color: #4A8C9C;
+  letter-spacing: 0.2em;
+}
+
+.message p {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  color: #444444;
+  padding-top: 5px;
+} 
+
+.about {
+  padding-top: 78px;
+}
+
+.about-title {
+  padding-left: 50px;
+}
+
+.about-item {
+  display: flex;
+  align-items: center;
+}
+
+.about-item-img {
+  width: 46%;
+}
+
+.about-item-img img {
+  width: 100%;
+}
+
+.about-item-text {
+  padding-right: 7.8%;
+  padding-left: 7.8%;
+  width: 54%;
+}
+
+.about-item-text-title {
+  font-size: 26px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  font-weight: bold;
+  color: #006a80;
+}
+
+.about-item-text-p {
+  font-size: 14px;
+  padding-top: 25px;
+  letter-spacing: 0.2em;
+  line-height: 1.8;
+}
+
+.link-more {
+  border: solid 1px black;
+  padding: 15px 140px;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+}
+
+.about-btn-more {
+  text-align: center;
+  padding-top: 62px;
+}
+
+.interview-wrapper {
+  padding-top: 78px;
+  width: 100%;
+}
+
+.interview-title {
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+.interview {
+  margin-left: 2px;
+}
+
+.interviews {
+  display: flex;
+}
+
+.interview-texts {
+  color: #444444;
+  padding: 30px 40px;
+}
+
+.interview-img-title {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.8;
+  letter-spacing: 0.2em;
+}
+
+.interview-img-p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.2em;
+}
+
+.interview-img {
+  width: 100%;
+}
+
+.interview-img img {
+  width: 100%;
+}
+
+.gallery {
+  padding-bottom: 110px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.gallery-title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.gallery-img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  width: calc(20% - 6.4px);
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+.contact-body a {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 230px;
+  width: 100%;
+  background-image: url(./imge/contact_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
+
+.contact-texts {
+  margin: 0 auto;
+}
+
+.contact-title-en {
+  font-size: 32px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+}
+
+.contact-title-ja {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  padding-top: 16px;
+  padding-left: 50px;
+  line-height: 1;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 77px;
+  padding: 0 50px;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-left {
+  padding-right: 10px;
+}
+
+.footer-left a {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  color: #444444;
+}
+
+.footer-right {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  color: #444444
+} 
